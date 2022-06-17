@@ -10,7 +10,6 @@ Modules:
   * Some implementations may also exist here if they are not dependent on third-parties.
 * `infra`: `core` implementations and third-party integrations that can be reused in consumer apps for things like mockservers.
   * Uses Spring autoconfiguration to reduce mockserver setup.
-This package can also be used to build mock endpoints in other projects and uses autoconfiguration for a configuration-less mock server.
 * `server`: non-reusable third-party integrations and configuration.
 
 Other useful modules not yet included:
