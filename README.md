@@ -12,7 +12,8 @@ Modules:
   * Uses Spring autoconfiguration to reduce mockserver setup.
 This package can also be used to build mock endpoints in other projects and uses autoconfiguration for a configuration-less mock server.
 * `server`: non-reusable third-party integrations and configuration.
-Other useful modules:
+
+Other useful modules not yet included:
 * `metrics`: code needed for observability platforms (could also live in `server`).
 * `test`: reusable test factories and generators.
 * `client`: library for interacting with the API.
